@@ -31,7 +31,7 @@
     <dimen name="chip_height_normal">36dp</dimen>
     <dimen name="inner_chip_width_normal">28dp</dimen>
     <dimen name="inner_chip_height_normal">16dp</dimen>
-    <dimen name="logo_width_normal">48dp</dimen>
+    <dimen name="logo_width_normal">70dp</dimen>
     <dimen name="logo_height_normal">48dp</dimen>
     <dimen name="center_image_width">75dp</dimen>
     <dimen name="center_image_height">75dp</dimen>

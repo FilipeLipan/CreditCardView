@@ -7,23 +7,23 @@
     <color name="chip_yellow_color">#fbe191</color>
     <color name="chip_yellow_inner_color">#eed280</color>
 
-    <color name="purple_color">#5515a9</color>
-    <color name="purple_color_gradient">#651dc4</color>
+    <color name="purple_color">#C8465D</color>
+    <color name="purple_color_gradient">#C8465D</color>
 
-    <color name="green_color">#108b4c</color>
-    <color name="green_color_gradient">#1caf57</color>
+    <color name="green_color">#C8465D</color>
+    <color name="green_color_gradient">#C8465D</color>
 
-    <color name="blue_color">#5D8BF2</color>
-    <color name="blue_color_gradient">#3545AE</color>
+    <color name="blue_color">#C8465D</color>
+    <color name="blue_color_gradient">#C8465D</color>
 
-    <color name="pink_color">#d04c84</color>
-    <color name="pink_color_gradient">#d04882</color>
+    <color name="pink_color">#C8465D</color>
+    <color name="pink_color_gradient">#C8465D</color>
 
-    <color name="default_color">#363434</color>
-    <color name="default_color_gradient">#434141</color>
+    <color name="default_color">#C8465D</color>
+    <color name="default_color_gradient">#C8465D</color>
 
-    <color name="brown_color">#800000</color>
-    <color name="brown_color_gradient">#A52A2A</color>
+    <color name="brown_color">#C8465D</color>
+    <color name="brown_color_gradient">#C8465D</color>
 
 
 
