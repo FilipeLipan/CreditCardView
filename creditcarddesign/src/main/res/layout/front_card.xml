@@ -36,26 +36,21 @@
 
     <TextView
         android:id="@+id/front_card_number"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="18dp"
         android:hint="XXXX XXXX XXXX XXXX"
-        android:shadowColor="@color/text_shadow"
-        android:shadowDx="1"
-        android:shadowDy="1"
-        android:shadowRadius="2"
-        android:textColor="@android:color/white"
-        android:textColorHint="@color/semi_white"
+        style="@style/creditCardText"
         android:textSize="@dimen/text_size_normal"
 
 
         />
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="135dp"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -65,32 +60,17 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/card_name_label"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/card_holder"
-                android:textColor="@android:color/darker_gray"
-                android:textColorHint="@color/semi_white"
-                android:textSize="9sp"
-
-                />
-
-            <TextView
                 android:id="@+id/front_card_holder_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:hint="@string/card_holder_name_sample"
-                android:maxWidth="150dp"
-                android:minWidth="150dp"
+                tools:text="Filipe Schmidt"
+                style="@style/creditCardText"
+                android:maxWidth="190dp"
+                android:minWidth="190dp"
                 android:paddingBottom="@dimen/padding_small"
-                android:paddingTop="@dimen/padding_small"
-                android:shadowColor="@color/text_shadow"
-                android:shadowDx="1"
-                android:shadowDy="1"
-                android:shadowRadius="2"
-                android:textColor="@android:color/white"
-                android:textColorHint="@color/semi_white" />
+                android:paddingTop="@dimen/padding_small" />
 
 
         </LinearLayout>
@@ -103,32 +83,18 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/card_expiry_label"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/expiry"
-                android:textColor="@android:color/darker_gray"
-                android:textColorHint="@color/semi_white"
-                android:textSize="9sp"
-
-                />
-
-            <TextView
                 android:id="@+id/front_card_expiry"
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:hint="@string/mm_yy"
-                android:maxWidth="150dp"
-                android:minWidth="150dp"
+                tools:text="11/19"
+                android:gravity="center"
+                style="@style/creditCardText"
+                android:maxWidth="70dp"
+                android:minWidth="70dp"
                 android:paddingBottom="@dimen/padding_small"
-                android:paddingTop="@dimen/padding_small"
-                android:shadowColor="@color/text_shadow"
-                android:shadowDx="1"
-                android:shadowDy="1"
-                android:shadowRadius="2"
-                android:textColor="@android:color/white"
-                android:textColorHint="@color/semi_white" />
+                android:paddingTop="@dimen/padding_small" />
 
         </LinearLayout>
     </LinearLayout>
