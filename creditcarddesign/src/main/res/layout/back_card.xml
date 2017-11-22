@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/back_card_container"
-    android:layout_width="300dp"
-    android:layout_height="180dp"
+    android:layout_width="@dimen/card_width_normal"
+    android:layout_height="@dimen/card_height_normal"
     xmlns:tools="http://schemas.android.com/tools"
     tools:background="@drawable/card_color_round_rect_pink"
     android:visibility="gone"
