@@ -25,8 +25,8 @@
     <dimen name="cardview_default_elevation">1dp</dimen>
 
 
-    <dimen name="card_width_normal">300dp</dimen>
-    <dimen name="card_height_normal">180dp</dimen>
+    <dimen name="card_width_normal">280dp</dimen>
+    <dimen name="card_height_normal">160dp</dimen>
     <dimen name="chip_width_normal">54dp</dimen>
     <dimen name="chip_height_normal">36dp</dimen>
     <dimen name="inner_chip_width_normal">28dp</dimen>
